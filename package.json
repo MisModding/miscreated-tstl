@@ -1,0 +1,16 @@
+{
+  "name": "miscreated-modtemplate-typescript",
+  "version": "0.0.1",
+  "description": "miscreated mod template in typescript using typescript-to-lua",
+  "private": true,
+  "scripts": {
+    "build": "tstl",
+    "dev": "tstl --watch",
+    "clean": "del src\\*.lua && del src\\*.lua.map"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9",
+    "lua-types": "^2.11.0",
+    "typescript-to-lua": "^1.1.1"
+  }
+}

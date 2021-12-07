@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./build",
+        "target": "esnext",
+        "strict": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "keyofStringsOnly": true,
+        "experimentalDecorators": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": true,
+        "lib": [
+            "esnext"
+        ],
+        "sourceMap": true,
+        "types": [
+            "lua-types/5.1"
+        ],
+        "typeRoots": [
+            "./types"
+        ]
+    },
+    "include": [
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "./.git/*",
+        "./.vs/*",
+        "./.vscode/*",
+        "./node_modules/*",
+        "./lib/*",
+        "./bin/*",
+        "./build/*"
+    ],
+    "tstl": {
+        "luaTarget": "5.1",
+        "noImplicitSelf": true,
+        "noHeader": true,
+        //"luaBundle": "main.lua",
+        //"luaBundleEntry": "./scripts/mods/main.ts",
+    }
+}

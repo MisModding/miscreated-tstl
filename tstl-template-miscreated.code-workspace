@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"licenser.projectName": "tstl-template-miscreated",
+		"workbench.startupEditor": "readme",
+		"todo-tree.filtering.ignoreGitSubmodules": true,
+		"vscode-lua-format.configPath": "./lua-format.cfg",
+		"Lua.runtime.version": "Lua 5.1",
+		"Lua.workspace.library": [
+			".lua.completions.d",
+		],
+		"Lua.diagnostics.disable": [
+			"lowercase-global"
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"sumneko.lua",
+			"aaron-bond.better-comments",
+			"Gruntfuggly.todo-tree",
+			"usernamehw.errorlens",
+			"Koihik.vscode-lua-format"
+		]
+	}
+}
